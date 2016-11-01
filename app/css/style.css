@@ -339,6 +339,10 @@ nav {
   width: 100%;
   background: transparent;
   z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 nav .content {
   height: 100%;
@@ -376,6 +380,15 @@ nav ul li a:hover {
   height: 96px;
   margin-right: 30px;
 }
+.nav__logo a {
+  width: 130px;
+  height: 40px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background: url("../img/logo.png");
+  display: block;
+}
 .nav__logo img {
   display: block;
   width: 100%;
@@ -407,6 +420,34 @@ nav ul li a:hover {
 .nav__linked .button-block .button:hover {
   background: #33bd36;
   border-color: #33bd36;
+}
+nav.fix {
+  background: #fff;
+}
+nav.fix .nav__logo a {
+  background: url("../img/logof.png");
+}
+nav.fix ul li a {
+  color: #162345;
+}
+nav.fix ul li a:hover {
+  color: #4aa0e0;
+}
+nav.fix .block__phone span {
+  color: #162345;
+}
+nav.fix .block__phone:hover span {
+  color: #4aa0e0;
+}
+nav.fix .button-block .button {
+  background: transparent;
+  border: solid 1px #162345;
+  color: #162345;
+}
+nav.fix .button-block .button:hover {
+  background: #33bd36;
+  border-color: #33bd36;
+  color: #fff;
 }
 header {
   float: left;

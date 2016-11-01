@@ -6,6 +6,7 @@ nav
     width 100%
     background transparent
     z-index 999
+    m-speed(.3s)
     
     .content
         height 100%;
@@ -37,6 +38,12 @@ nav
     display table
     size(129px,96px)
     margin-right 30px
+    
+    a
+        size(130px,40px)
+        bgP(center,center,contain)
+        background url(../img/logo.png)
+        display block
     
     img 
         display block
@@ -70,7 +77,43 @@ nav
             background colfirm
             border-color colfirm
             
+      
+nav.fix
+    background #fff
+    
+    .nav__logo
+        a
+            background url(../img/logof.png)
             
+            
+    ul        
+        li      
+            a 
+                color #162345    
+            a:hover
+                color #4aa0e0
+                
+        
+    .block__phone
+        span
+            color #162345
+                    
+    .block__phone:hover
+        span
+            color #4aa0e0
+            
+            
+            
+    .button-block
+        .button
+            background transparent
+            border solid 1px #162345
+            color #162345
+        .button:hover
+            background colfirm
+            border-color colfirm
+            color #fff
+    
             
             
 //@media (max-width: 1400px) and (min-width: 1280px)
