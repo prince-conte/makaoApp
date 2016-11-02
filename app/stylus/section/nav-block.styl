@@ -101,6 +101,8 @@ nav.fix
     .block__phone:hover
         span
             color #4aa0e0
+            .bold
+                color #4aa0e0
             
             
             
@@ -125,13 +127,117 @@ nav.fix
             
 
 
-//@media (max-width: 1023px) and (min-width: 768px)
+@media (max-width: 1023px) and (min-width: 768px)
 
-
+    nav
+        ul 
+            display none
         
     
-//@media (max-width: 767px)
+@media (max-width: 767px) 
     
+    nav
+        height 85px
         
+        ul 
+            display none
+            li
+                a
+                    display none
+                    
+                    
+    .nav__logo
+        width 30%
+        height 77px
+        
+        a
+            
+            position relative
+            display block
+            margin 0 auto
+            
+
+        
+    .nav__linked
+        width 60%
+        
+        .button-block
+            width 100%
+            margin-top -15px
+            text-align right
+            float right
+            
+            .button
+                padding: 8px 28px;
+            
+        .block__phone
+            width 100%
+            margin-top -2px
+            text-align right
+            float right
+            margin-right 10px
+            
+
+        
+        
+     
+    
+            
+@media (max-width: 480px)
+    
+     nav
+        height 85px
+        
+        ul 
+            display none
+            li
+                a
+                    display none
+                    
+                    
+        .nav__logo
+            width 20%
+            height 60px
+        
+            a
+                position relative
+                display block
+                margin 0 auto
+                width 65px
+            
+
+        
+        .nav__linked
+            width 80%
+            position relative
+            top -60px
+        
+            .button-block
+                width 100%
+                margin-top -15px
+                text-align right
+                float right
+            
+                .button
+                    padding: 8px 28px;
+            
+            .block__phone
+                width 100%
+                margin-top -2px
+                text-align right
+                float right
+                margin-right 10px
+                
+                span
+                    font-size: 14px;
+                    white-space nowrap
+                    
+                    b
+                        font-size: 14px;
+                        
+            
+
+        
+     
     
         

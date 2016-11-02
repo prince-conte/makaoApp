@@ -138,6 +138,12 @@ article
         font-size 18px
         color #fff
         m-speed(.3s)
+        white-space nowrap
+        
+        .bold 
+            font-weight 700
+            display inline
+            
         
     i
         display inline-block
@@ -152,6 +158,7 @@ article
 .block__phone:hover
     span
         color #4aa0e0
+        
     
     
     
@@ -213,11 +220,52 @@ article
             font-size 14px
         
 
-//@media (max-width: 1023px) and (min-width: 768px)
-    
-    
-//@media (max-width: 767px)
-    
+@media (max-width: 1023px) and (min-width: 768px)
 
+ 
+    .content 
+        width 100%
+        padding 0 25px
+        
+    .block__phone
+        
+        span
+            font-size 14px
+            
     
+@media (max-width: 767px)
+ 
+    .content 
+        width 100%
+        padding 0 15px
+        
+    .block__phone
+        
+        span
+            font-size 14px
+            
+    
+    h1, 
+    h3
+        font-size 22px
+        b
+        font-weight 700
+     
+    h2
+        font-size 24px
+
+
+    h4
+        font-size 16px
+        
+        
+  
+    .button-block
+        float-w(100%)
+        margin-top 5px
+    
+        .button
+            padding 8px 28px
+            font-size 14px
+            m-speed(0.3s)
     
